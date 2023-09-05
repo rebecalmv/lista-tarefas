@@ -10,24 +10,10 @@ const initialState: TarefasState = {
   itens: [
     {
       id: 1,
-      descricao: 'assistir aulas',
+      descricao: '',
       prioridade: enums.Prioridade.NORMAL,
       status: enums.Status.CONCLUIDA,
-      titulo: 'Estudar'
-    },
-    {
-      id: 2,
-      descricao: 'baixar boletos',
-      prioridade: enums.Prioridade.URGENTE,
-      status: enums.Status.PENDENTE,
-      titulo: 'Pagar contas'
-    },
-    {
-      id: 3,
-      descricao: 'ir para academia',
-      prioridade: enums.Prioridade.NORMAL,
-      status: enums.Status.PENDENTE,
-      titulo: 'Exercicios'
+      titulo: 'Tarefa 1'
     }
   ]
 }
